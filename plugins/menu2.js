@@ -31,12 +31,12 @@ const context = (jid, img) => ({
     isForwarded: true,
     forwardingScore: 1,
     forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363225356834044@newsletter',
-        newsletterName: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
+        newsletterJid: '120363426553571462@newsletter',
+        newsletterName: 'تخص ءلمنحرفين 515',
         serverMessageId: 0
     },
     externalAdReply: {
-        title: "𝐏𝐎𝐌𝐍𝐈-𝐀𝐈 🎪 | 𝐁𝐨𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐡𝐞 𝐖𝐒/𝐕𝐈𝐈 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤",
+        title: "3QAB  & S| 𝐁𝐨𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐡𝐞 𝐖𝐒/𝐕𝐈𝐈 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤",
         body: "𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚎𝚊𝚜𝚢 𝚝𝚘 𝚖𝚘𝚍𝚒𝚏𝚢 𝚊𝚗𝚍 𝚟𝚎𝚛𝚢 𝚏𝚊𝚜𝚝",
         thumbnailUrl: img,
         sourceUrl: '',
@@ -67,9 +67,8 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
         }];
 
         const menuText = `
-رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ
-وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَّحِيمٌ
-╭─┈─┈─┈─⟞🎪⟝─┈─┈─┈─╮
+         عقاب بيقولك متبعبصش في البوت عشان ميجيش يبعبصك يحؤان
+        ╭─┈─┈─┈─⟞🎪⟝─┈─┈─┈─╮
 ┃ ⌯🍂︙ اهـلا → *[ @${m.sender.split("@")[0]} ]*
 ┃ ⌯🚀︙ الـتشـغـيـل → ${uptimeFormatted}
 ┃ ⌯👾︙ الـتـاريـخ → ${date} - ${time}
@@ -89,8 +88,8 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
             }],
             mentions: [m.sender],
             newsletter: {
-                name: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
-                jid: '120363225356834044@newsletter'
+                name: 'تخص ءلمنحرفين 515',
+                jid: '120363426553571462@newsletter'
             }
         }, global.reply_status);
         return;
